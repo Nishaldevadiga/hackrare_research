@@ -1,0 +1,21 @@
+# ─── Datasets ─────────────────────────────────────────────────────────────────
+voice-icar-federico-ii-database-1.0.0/
+Perceptual Voice Qualities Database (PVQD)/
+
+# ─── Extracted features / large data files ────────────────────────────────────
+*.npy
+*.csv
+!requirements.txt
+
+# ─── Model artifacts ──────────────────────────────────────────────────────────
+models/*.pkl
+models/*.pt
+
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+.venv/
+
+# ─── OS / IDE ─────────────────────────────────────────────────────────────────
+.DS_Store
+.vscode/

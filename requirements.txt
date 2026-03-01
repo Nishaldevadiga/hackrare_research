@@ -1,0 +1,24 @@
+# ── MG Voice Fatigue Detection — Requirements ────────────────────────────────
+# pip install -r requirements.txt
+
+# Audio processing
+praat-parselmouth>=0.4.3      # Praat wrapper for jitter/shimmer/F0/HNR
+librosa>=0.10.0               # MFCCs, spectral features
+wfdb>=4.1.0                   # VOICED dataset (.dat/.hea) reader
+scipy>=1.11.0                 # WAV writing, stats
+
+# Machine learning
+scikit-learn>=1.3.0           # SVM, cross-validation, preprocessing
+xgboost>=2.0.0                # Ensemble meta-classifier
+torch>=2.0.0                  # BiLSTM model
+joblib>=1.3.0                 # Model serialization
+
+# Explainability
+shap>=0.43.0                  # SHAP values for SVM
+
+# Data / visualization
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+tqdm>=4.65.0                  # Progress bars

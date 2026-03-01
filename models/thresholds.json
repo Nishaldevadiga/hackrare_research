@@ -1,0 +1,9 @@
+{
+  "low": 0.2348,
+  "high": 0.6021,
+  "youden_j": 0.7649,
+  "sensitivity_at_high": 0.8542,
+  "specificity_at_high": 0.9107,
+  "method": "HIGH = Youden's J optimal threshold (max sensitivity+specificity). LOW = 95%-sensitivity threshold (\u22645% of pathologicals below this bound).",
+  "citation": "Van Calster B et al. (2019). Three myths about risk thresholds for prediction models. BMC Medicine, 17, 192. https://doi.org/10.1186/s12916-019-1425-3"
+}

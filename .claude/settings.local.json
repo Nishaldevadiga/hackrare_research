@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"/Users/nishu/Desktop/hackrare_research/Perceptual Voice Qualities Database \\(PVQD\\)/\")",
+      "Bash(ls \"/Users/nishu/Desktop/hackrare_research/Perceptual Voice Qualities Database \\(PVQD\\)/Audio Files/\")",
+      "Bash(ls \"/Users/nishu/Desktop/hackrare_research/Perceptual Voice Qualities Database \\(PVQD\\)/Ratings Spreadsheets/\")",
+      "Bash(ls \"/Users/nishu/Desktop/hackrare_research/Perceptual Voice Qualities Database \\(PVQD\\)/Introduction, Methods and Reliability/\")",
+      "Read(//Users/nishu/Desktop/hackrare_research/$PVQD/**)",
+      "Bash(python3 -c \":*)",
+      "Bash(pip3 install openpyxl -q)",
+      "Bash(python3 pvqd_loader.py)",
+      "Bash(python3 combine_and_retrain.py)",
+      "Bash(python3 step5_inference.py --no-plot --audio \"/Users/nishu/Desktop/hackrare_research/Perceptual Voice Qualities Database \\(PVQD\\)/Audio Files/BL01 ENSS.wav\")",
+      "Bash(python3 step5_inference.py --no-plot --audio \"./Perceptual Voice Qualities Database \\(PVQD\\)/Audio Files/NYU1006_ENSS.wav\")",
+      "Bash(python3 step5_inference.py --no-plot --audio \"./Perceptual Voice Qualities Database \\(PVQD\\)/Audio Files/LA1001ENSS.wav\")"
+    ]
+  }
+}
